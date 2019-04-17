@@ -1,0 +1,14 @@
+{% extends 'main/index.html' %}
+{% load staticfiles %}
+{% block header %}
+    <link rel="stylesheet" href="{% static 'css/shooting_night.css' %}" >
+    <script src="{% static 'js/shootingNight.js' %}"></script>
+{% endblock header %}
+
+{% block content %}
+<div class="row">
+    <div class="col-xs-15">
+            <canvas id="canvas"></canvas>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,3 @@
+DirectoryIndex ShootingNight.html index.php index.html Options -indexes 
+ErrorDocument 404 ../../404.php 
+ErrorDocument 500 ../../error.php
